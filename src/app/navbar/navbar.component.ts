@@ -8,7 +8,7 @@ import { Component, Input } from '@angular/core';
     >
       <div class="flex items-center justify-between text-blue-gray-900 ">
         <a
-          href="/"
+          href="./"
           (click)="onLoarding()"
           class="mr-4 block cursor-pointer py-1.5 font-sans text-base font-semibold leading-relaxed tracking-normal text-black antialiased"
         >
@@ -88,7 +88,7 @@ import { Component, Input } from '@angular/core';
               fill="none"
               viewBox="0 0 24 24"
               stroke-width="2"
-              stroke="currentColor"
+              stroke="grey"
               aria-hidden="true"
               class="w-6 h-6"
             >
